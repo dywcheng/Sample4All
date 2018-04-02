@@ -1,6 +1,7 @@
 ### testBasic.py
 ### check out the script method
 
+### see if I can pull this from the PC desktop version
 
 fileName = "test.py"
 print('filename = ',fileName)
