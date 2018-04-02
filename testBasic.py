@@ -2,7 +2,7 @@
 ### check out the script method
 
 ### see if I can pull this from the PC desktop version
-
+### add one more line for upload testBasic
 fileName = "test.py"
 print('filename = ',fileName)
 
@@ -13,7 +13,7 @@ for i in nums:
 
 floatNum = 7.31345
 
-print('first print %10i, %10.3f' % (nums[3], floatNum)) 
+print('first print %10i, %10.3f' % (nums[3], floatNum))
 print('second print %5d %10o %20x' % (nums[5], nums[5], nums[5]) )
 
 out = open('testResult.txt', 'w')
@@ -36,7 +36,7 @@ for line in inFile:
        else:
            complete = 0
        print('passed = %3i, exec = %3d, percent = %3.2f' % (q0Passed, q0Executed, complete))
-'''             
+'''
 print('print 2 file: {:>10s} try different ways {:<10} {:>20}'.format(fileName, nums[1], nums[3]), file=out)
 MIN = 3
 MAX = 5
@@ -71,4 +71,4 @@ webpage = REDFIN % (Cities.get('Fremont'))
 print(webpage)
 
 out.close()
-###inFile.close()      
+###inFile.close()
